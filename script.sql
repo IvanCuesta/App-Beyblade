@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS dbbeyblade CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+
+USE dbbeyblade;
+
+CREATE TABLE IF NOT EXISTS beyblades (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    tipo VARCHAR(50),
+    pana VARCHAR(255)
+);
